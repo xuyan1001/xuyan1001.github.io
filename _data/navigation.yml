@@ -6,6 +6,9 @@ main:
   - title: "By Tags"
     url: /tags/
 
+  - title: "Categories"
+    url: /categories/
+
   - title: "Publications"
     url: /publications/
 
