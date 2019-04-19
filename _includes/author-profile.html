@@ -1,12 +1,16 @@
 {% include base_path %}
 
+<!--
 {% if page.author and site.data.authors[page.author] %}
   {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
 {% endif %}
-
+-->
+{% assign author = site.author %}
 <div itemscope itemtype="http://schema.org/Person">
 
   <div class="author__avatar">
+	  <h1>{{ base_paht }}</h1>
+	  <h1>{{ author.name }}</h1>
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
