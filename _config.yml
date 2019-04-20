@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "cn-ZH"
-title                    : "Xu Yan / Growing"
+title                    : "许焱 / Growing"
 title_separator          : "-"
-name                     : &name "Xu Yan"
+name                     : &name "许焱"
 description              : &description "A Fresh Fish"
 url                      : https://xuyan1001.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
