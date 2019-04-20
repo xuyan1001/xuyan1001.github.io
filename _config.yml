@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "cn-ZH"
-title                    : "许焱 / 进化"
+title                    : "成长/ 蜕变 / 进化"
 title_separator          : "-"
 name                     : &name "许焱"
 description              : &description "A Fresh Fish"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xu Yan"
+  name             : "许焱"
   avatar           : "avatar.jpg"
-  bio              : "I am a fresh fish! \n Stay Foolish Stay Hungry! \n Keep Clam and Carry On!"
+  bio              : "Stay Foolish Stay Hungry! <br/> Keep Clam and Carry On!"
   location         : "北京市健康智谷--医渡云"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
