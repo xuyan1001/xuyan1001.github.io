@@ -2,7 +2,10 @@
 main:
   - title: "Blog Posts"
     url: /year-archive/
-  
+
+  - title: "Reading Notes"
+    url: /reading-notes/
+
   - title: "By Tags"
     url: /tags/
 
