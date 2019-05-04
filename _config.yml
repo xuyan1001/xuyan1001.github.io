@@ -178,6 +178,9 @@ kramdown:
 
 # Collections
 collections:
+  basic-knowledge:
+    output: true
+    permalink: /:collection/:path/
   reading-notes:
     output: true
     permalink: /:collection/:path/
@@ -220,6 +223,14 @@ defaults:
   - scope:
       path: ""
       type: reading-notes
+    values:
+      layout: single
+      author_profile: true
+      author: "Yan Xu"
+  # _basic-knowledge 
+  - scope:
+      path: ""
+      type: basic-knowledge 
     values:
       layout: single
       author_profile: true

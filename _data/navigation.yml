@@ -2,7 +2,8 @@
 main:
   - title: "Blog Posts"
     url: /year-archive/
-
+  - title: "Basic Knowledge"
+    url: /basic-knowledge/
   - title: "Reading Notes"
     url: /reading-notes/
 

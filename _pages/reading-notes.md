@@ -8,9 +8,11 @@ author_profile: true
 {% include base_path %}
 <ul>
   {% for note in site.reading-notes %}
-      <li> 
-	<a href="{{ note.url }}"> {{ note.title }}</a>
-      </li>
-    {% include archive-single.html %}
+      {% if note.level == "book" %}
+           <li> 
+		<a href="{{ note.url }}"> {{ note.title }}</a>
+           </li>
+      {% endif %}
+      {% include archive-single.html %}
   {% endfor %}
 </ul>

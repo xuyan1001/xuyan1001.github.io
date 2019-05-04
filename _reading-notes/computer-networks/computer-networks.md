@@ -1,20 +1,20 @@
 ---
 collection: reading-notes
-title: "Vim 实用技巧"
-date: 2019-05-01 11:33:02
+title: "计算机网络（第5版）"
+date: 2019-05-02 09:09:23
 level: book
-book: practical-vim
+book: compter-networks
 categories:
   - reading-notes
   - catalog
 ---
-
 <ul>
     {% for note in site.reading-notes %}
-  	{% if note.book == page.book and note.level == "chapter"%}
+	{% if note.book == page.book and note.level == "knowledge-point"%}
 	    <li>
 		<a href="{{ note.url }}">{{ note.title }}</a>
 	    </li>
 	{% endif %}
     {% endfor%}
 </ul>
+
